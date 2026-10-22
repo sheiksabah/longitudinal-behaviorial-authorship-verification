@@ -8,4 +8,4 @@ Rather than attempting to create a perfect AI detector, this project will evalua
 
 ## Research Question
 
-Can a personalized longitudinal writing model distinguish natural stylistic evolution from AI-assisted changes in an author's writing?
+Can a personalized writing model distinguish natural stylistic evolution from AI-assisted changes in an author's writing?

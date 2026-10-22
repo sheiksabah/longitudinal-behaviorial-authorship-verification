@@ -15,4 +15,4 @@ data/raw/
 Thumbs.db
 
 # Environment variables / secrets
-.env
+.env 

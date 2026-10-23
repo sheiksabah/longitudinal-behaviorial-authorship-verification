@@ -4,7 +4,7 @@ import re
 
 RAW_DIR = Path("data/raw")
 
-# The three stories I downloaded separately
+# The three stories (separate)
 STORY_TITLES = [
     "The Cask of Amontillado",
     "The Fall of the House of Usher",

@@ -7,9 +7,6 @@ venv/
 # Jupyter
 .ipynb_checkpoints/
 
-# Personal/raw data
-data/raw/
-
 # OS files
 .DS_Store
 Thumbs.db

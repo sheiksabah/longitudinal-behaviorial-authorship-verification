@@ -1,0 +1,4 @@
+feature_a,feature_b,correlation
+average_sentence_length,sentence_length_std,0.7417011381808895
+type_token_ratio,hapax_ratio,0.9719589090543642
+average_word_length,word_length_std,0.756143146335326

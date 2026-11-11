@@ -1,0 +1,11 @@
+feature_a,feature_b,mean,std,count
+average_sentence_length,comma_frequency_per_1000_words,0.36930267860359756,0.49073382522158643,13
+average_sentence_length,semicolon_frequency_per_1000_words,0.17104090327745158,0.4446287443138632,13
+average_sentence_length,sentence_length_std,0.684940922892301,0.2069040781980558,13
+average_sentence_length,type_token_ratio,0.07381866370269925,0.4798200233827116,13
+comma_frequency_per_1000_words,semicolon_frequency_per_1000_words,-0.10190544667636178,0.5651810647463543,13
+sentence_length_std,comma_frequency_per_1000_words,0.12319482733789645,0.5093851966265994,13
+sentence_length_std,semicolon_frequency_per_1000_words,0.2505497557969025,0.4976677998715007,13
+sentence_length_std,type_token_ratio,-0.010944797490890577,0.6534370906444048,13
+type_token_ratio,comma_frequency_per_1000_words,0.2064687623127456,0.4774936488740433,13
+type_token_ratio,semicolon_frequency_per_1000_words,-0.22077239482357197,0.48313786032810124,13

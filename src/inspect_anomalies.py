@@ -3,15 +3,7 @@ import pandas as pd
 import numpy as np
 from pathlib import Path
 
-# --------------------------------
-# Configuration
-# --------------------------------
-
 INPUT = Path("data/processed/reduced_behavioral_dataset.csv")
-
-# --------------------------------
-# Load dataset
-# --------------------------------
 
 df = pd.read_csv(INPUT)
 
@@ -22,10 +14,6 @@ feature_columns = [
 ]
 
 stories = df["story"].unique()
-
-# --------------------------------
-# Inspect each held-out story
-# --------------------------------
 
 all_contributions = []
 
@@ -53,9 +41,7 @@ for held_out_story in stories:
                 "absolute_z_score": deviation
             })
 
-# --------------------------------
 # Save feature contributions
-# --------------------------------
 
 contributions = pd.DataFrame(all_contributions)
 
@@ -63,10 +49,6 @@ contributions.to_csv(
     "data/processed/anomaly_feature_contributions.csv",
     index=False
 )
-
-# --------------------------------
-# Display largest deviations
-# --------------------------------
 
 top_contributions = (
     contributions
